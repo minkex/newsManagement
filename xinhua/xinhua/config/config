@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <crawler_depth>2</crawler_depth>
+    <crawler_delay>3</crawler_delay>
+    <configuration>
+        <urls>
+            <dynamicURL id="dynamic_link">
+                <crawl><link>http://qc.wa.news.cn/nodeart/list?</link><nid>113352</nid>
+                    <cnt>10</cnt>
+                    <tp>1</tp>
+                    <orderby>1</orderby>
+                    <pgnum>10</pgnum>
+                </crawl>
+            </dynamicURL>
+            <start_urls>
+                <start_url>http://qc.wa.news.cn/nodeart/list?</start_url>
+                <start_url>http://sports.xinhuanet.com/</start_url>
+            </start_urls>
+            <staticURL id="static_link">
+                <crawl><link>http://sports.xinhuanet.com/</link></crawl>
+            </staticURL>
+            <zhongxinURLS id="zhongxin_link"><link>http://www.chinanews.com/scroll-news/</link><pgnum>1</pgnum><begin_date>2018/0916</begin_date><end_date>2018/0917</end_date>
+            </zhongxinURLS>
+        </urls>
+        <parse_rules>
+            <detail_rules>
+                <url_depth>2</url_depth>
+                <date_rule>
+			        <rule>
+                        <rule_id>date_1</rule_id>
+                        <regex>/2017-\d{2}/\d{2}/</regex>
+			        </rule>
+                </date_rule>
+                <public_rules>
+			        <keywords_rules>
+				        <rule>
+                            <rule_id>pub_1</rule_id>
+                            <xpath>//meta[@name="keywords"]/@content</xpath>
+                            <sep>,</sep>
+                        </rule>
+					</keywords_rules>
+			        <abstract_rules>
+						<rule>
+                            <rule_id>pub_1</rule_id>
+                            <xpath>//meta[@name="description"]/@content</xpath>
+                        </rule>
+					</abstract_rules>
+			        <editor_rules>
+						<rule>
+                            <rule_id>pub_1</rule_id>
+                            <xpath>//span[@class="p-jc"]/text()</xpath>
+                            <regex> 【编辑:.*】</regex>
+							<pprefix>责任编辑：</pprefix>
+                        </rule>
+						<rule>
+                            <rule_id>pub_2</rule_id>
+                            <xpath>//div[@class="bjn"]/text()</xpath>
+                            <regex> 【编辑:.*】</regex>
+							<pprefix>责任编辑：</pprefix>
+                        </rule>
+                        <rule>
+                            <rule_id>pub_3</rule_id>
+                            <xpath>//div[@class="content_desc"]/p/span/text()</xpath>
+                            <regex>责任编辑：【.*】</regex>
+							<pprefix>责任编辑：</pprefix>
+                        </rule>
+                        <rule>
+                            <rule_id>pub_4</rule_id>
+                            <xpath>//div[@class="zxians"]/div[@style="text-align:right;font-size:12px;"]/text()</xpath>
+                            <regex> 【编辑:.*】 </regex>
+							<pprefix>责任编辑：</pprefix>
+                        </rule>
+                        <rule>
+                            <rule_id>pub_5</rule_id>
+                            <xpath>//div[@class="left_name"]/text()</xpath>
+                            <regex> 【编辑:.*】 </regex>
+							<pprefix>责任编辑：</pprefix>
+
+                        </rule>
+
+					</editor_rules>
+                    <title_rules>
+                        <rule>
+                            <rule_id>pub_1</rule_id>
+                            <xpath>//title/text()</xpath>
+                        </rule>
+                    </title_rules>
+                    <time_rules>
+                        <rule>
+                            <rule_id>pub_1</rule_id>
+                            <xpath>//span[@class="h-time"]/text()</xpath>
+                            <regex>\d{4}年\d{2}月\d{2}日 \d{2}:\d{2}</regex>
+                            <temp>%Y年%m月%d日 %H:%M:%S</temp>
+                        </rule>
+                        <rule>
+                            <rule_id>pub_2</rule_id>
+                            <xpath>//div[@class="sj"]/text()</xpath>
+                            <regex>\d{4}年\d{2}月\d{2}日 \d{2}:\d{2}</regex>
+                            <temp>%Y年%m月%d日 %H:%M:%S</temp>
+                        </rule>
+                        <rule>
+                            <rule_id>pub_3</rule_id>
+                            <xpath>//div[@class="zxians"]/div[@style="text-align:right;font-size:12px;"]/text()</xpath>
+                            <regex>\d{4}年\d{2}月\d{2}日 \d{2}:\d{2}</regex>
+                            <temp>%Y年%m月%d日 %H:%M:%S</temp>
+                        </rule>
+                        <rule>
+                            <rule_id>pub_4</rule_id>
+                            <xpath>//div[@class="content_title"]/div[@class="left"]/p/text()</xpath>
+                            <regex>\d{4}年\d{2}月\d{2}日 \d{2}:\d{2}</regex>
+                            <temp>%Y年%m月%d日 %H:%M:%S</temp>
+                        </rule>
+
+                        <rule>
+                            <rule_id>pub_5</rule_id>
+                            <xpath>//div[@class="left-t"]/text()</xpath>
+                            <regex>\d{4}年\d{2}月\d{2}日 \d{2}:\d{2}</regex>
+                            <temp>%Y年%m月%d日 %H:%M:%S</temp>
+                        </rule>
+
+
+                    </time_rules>
+                    <source_rules>
+                        <rule>
+                            <rule_id>pub_1</rule_id>
+                            <xpath>//em[@id="source"]/text()</xpath>
+                            <regex>来源：.*</regex>
+			    <pprefix>来源：</pprefix>
+                        </rule>
+                        <rule>
+                            <rule_id>pub_2</rule_id>
+                            <xpath>//span[@class="aticle_src"]/text()</xpath>
+                            <regex>来源：.*</regex>
+			    <pprefix>来源：</pprefix>
+                        </rule>
+                        <rule>
+                            <rule_id>pub_3</rule_id>
+                            <xpath>//div[@class="ly"]/text()</xpath>
+                            <regex>来源：.*</regex>
+                            <pprefix>来源：</pprefix>
+
+                        </rule>
+                        <rule>
+                            <rule_id>pub_4</rule_id>
+                            <xpath>//em[@class="source"]/text()</xpath>
+                            <regex>来源：.*</regex>
+                            <pprefix>来源：</pprefix>
+                        </rule>
+                        <rule>
+                            <rule_id>pub_5</rule_id>
+                            <xpath>//div[@class="h-info"]/span[2]/text()</xpath>
+                            <regex>来源：.*</regex>
+                            <pprefix>来源：</pprefix>
+                        </rule>
+                        <rule>
+                            <rule_id>pub_6</rule_id>
+                            <xpath>//div[@class="content_title"]/div[@class="left"]/p/text()</xpath>
+                            <regex>来源：.*</regex>
+                            <pprefix>来源：</pprefix>
+                        </rule>
+                        <rule>
+                            <rule_id>pub_7</rule_id>
+                            <xpath>//div[@class="left-t"]/text()</xpath>
+                            <regex>来源：.+</regex>
+                            <pprefix>来源：</pprefix>
+                        </rule>
+                        <rule>
+                            <rule_id>pub_8</rule_id>
+                            <xpath>//div[@class="left-t"]/a[@style="color:#666;font-weight:normal;"]/text()</xpath>
+                            <regex>\w*</regex>
+                            <pprefix></pprefix>
+                        </rule>
+
+
+                    </source_rules>
+		            <content_rules>
+			<rule>
+			    <rule_id>pub_1</rule_id>
+                <xpath>//div[@id="p-detail"]/p[not(@align)]</xpath>
+			</rule>
+			<rule>
+			    <rule_id>pub_2</rule_id>
+                <xpath>//div[@class="content"]/p[not(@align)]</xpath>
+			</rule>
+            <rule>
+			    <rule_id>pub_3</rule_id>
+                <xpath>//div[@class="left_zw"]/p[not(@align)]</xpath>
+			</rule>
+                <rule>
+			    <rule_id>pub_4</rule_id>
+                <xpath>//div[@class="t3"]</xpath>
+			</rule>
+		    </content_rules>
+                    <img_rules>
+                        <rule>
+                             <rule_id>pub_1</rule_id>
+                             <xpath>//div[@class="content"]/p/img/@src</xpath>
+                        </rule>
+                        <rule>
+			                <rule_id>pub_2</rule_id>
+                            <xpath>//div[@id="p-detail"]/p/img/@src</xpath>
+			            </rule>
+                    </img_rules>
+                </public_rules>
+                <allowed_channels>
+                    <channel ctype="时政" name="politics">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			<content_rules></content_rules>
+                        <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="社会" name="sh">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			<content_rules></content_rules>
+                        <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="国际" name="world">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+                        <img_rules></img_rules>
+			<content_rules></content_rules>
+                    </channel>
+                    <channel ctype="国际" name="gj">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+                        <img_rules></img_rules>
+			<content_rules></content_rules>
+                    </channel>
+                    <channel ctype="国内" name="gn">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+                        <img_rules></img_rules>
+			<content_rules></content_rules>
+                    </channel>
+                    <channel ctype="科技" name="tech">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+                        <img_rules></img_rules>
+			<content_rules></content_rules>
+                    </channel>
+                    <channel ctype="教育" name="edu">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                        <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="健康" name="health">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                        <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="健康" name="jk">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                        <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="房产" name="house">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                        <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="地方" name="local">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                        <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="港澳" name="gangao">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                        <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="港澳" name="ga">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                        <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="体育" name="sports">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                        <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="体育" name="ty">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                        <img_rules></img_rules>
+                    </channel>
+		            <channel ctype="台湾" name="tw">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                        <img_rules></img_rules>
+                    </channel>
+ 		            <channel ctype="能源" name="energy">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                        <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="能源" name="ny">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                        <img_rules></img_rules>
+                    </channel>
+		            <channel ctype="汽车" name="auto">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+                    </channel>
+		            <channel ctype="金融" name="fortune">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+            </channel>
+                    <channel ctype="财经" name="cj">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="产经" name="business">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="法律" name="legal">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="图片" name="tp">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="视频" name="shipin">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="娱乐" name="yl">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="生活" name="life">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="军事" name="mil">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="文化" name="cul">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="华人" name="hr">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="I T" name="it">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="证券" name="stock">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+                    </channel>
+                    <channel ctype="酒" name="wine">
+						<keywords_rules></keywords_rules>
+						<abstract_rules></abstract_rules>
+						<editor_rules></editor_rules>
+                        <title_rules></title_rules>
+                        <time_rules></time_rules>
+                        <source_rules></source_rules>
+			            <content_rules></content_rules>
+                <img_rules></img_rules>
+                    </channel>
+
+
+                </allowed_channels>
+            </detail_rules>
+        </parse_rules>
+        <mysql>
+            <host></host>
+            <port>3306</port>
+            <user>root</user>
+            <password>root</password>
+            <database>ContentManagement</database>
+            <filetable>xinhuanews</filetable>
+            <ucltable>xinhua</ucltable>
+        </mysql>
+    </configuration>
+</xml>

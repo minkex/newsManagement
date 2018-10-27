@@ -1,0 +1,8 @@
+[2018-10-12 09:07:35.542353] DEBUG: xinhua news: 读取并解析配置文件configure.xml开始
+[2018-10-12 09:07:35.582353] DEBUG: xinhua news: 读取并解析配置文件configure.xml结束
+[2018-10-12 14:54:47.514353] DEBUG: xinhua news: 读取并解析配置文件configure.xml开始
+[2018-10-12 14:54:47.543353] DEBUG: xinhua news: 读取并解析配置文件configure.xml结束
+[2018-10-12 14:57:04.871353] DEBUG: xinhua news: 读取并解析配置文件configure.xml开始
+[2018-10-12 14:57:04.883353] DEBUG: xinhua news: 读取并解析配置文件configure.xml结束
+[2018-10-12 15:02:12.499353] DEBUG: xinhua news: 读取并解析配置文件configure.xml开始
+[2018-10-12 15:02:12.511353] DEBUG: xinhua news: 读取并解析配置文件configure.xml结束

@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="726fa247-9d5e-45a1-8241-67f15fd632c7" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/xinhua$test.coverage" NAME="test Coverage Results" MODIFIED="1539941285652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xinhua/config" />
+    <SUITE FILE_PATH="coverage/xinhua$logtools.coverage" NAME="logtools Coverage Results" MODIFIED="1530417272807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xinhua/logs" />
+    <SUITE FILE_PATH="coverage/xinhua$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1538128386893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xinhua" />
+    <SUITE FILE_PATH="coverage/xinhua$config.coverage" NAME="config Coverage Results" MODIFIED="1530614340231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xinhua/config" />
+    <SUITE FILE_PATH="coverage/xinhua$zhongxin.coverage" NAME="zhongxin Coverage Results" MODIFIED="1537159965339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xinhua/spiders" />
+    <SUITE FILE_PATH="coverage/xinhua$xinhuaTest.coverage" NAME="xinhuaTest Coverage Results" MODIFIED="1530261290106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xinhua/spiders" />
+    <SUITE FILE_PATH="coverage/xinhua$testfrom.coverage" NAME="testfrom Coverage Results" MODIFIED="1539341543655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xinhua/config" />
+    <SUITE FILE_PATH="coverage/xinhua$filterurl.coverage" NAME="filterurl Coverage Results" MODIFIED="1530538251549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xinhua/tool" />
+    <SUITE FILE_PATH="coverage/xinhua$parsepage.coverage" NAME="parsepage Coverage Results" MODIFIED="1530542523862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xinhua/tool" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="zhongxin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xinhua/spiders/zhongxin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="62" column="41" lean-forward="false" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xinhua/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+              <folding>
+                <element signature="e#193#224#0" expanded="true" />
+                <marker date="1539941362135" expanded="true" signature="4233:4376" ph="insert into xinhua... " />
+                <marker date="1539941362135" expanded="true" signature="6105:6244" ph="insert into xinhua... " />
+                <marker date="1539941362135" expanded="true" signature="7538:7677" ph="insert into xinhua... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xinhuaTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xinhua/spiders/xinhuaTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parsepage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xinhua/tool/parsepage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2064">
+              <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info_logs-2018-10-10.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-10-10.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xinhua/config/config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#date_rule#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#rule#0;n#date_rule#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#rule#0;n#keywords_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#abstract_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#editor_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#title_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#time_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#source_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#content_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#img_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#0;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#1;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#2;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#3;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#4;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#5;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#6;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#7;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#8;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#9;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#10;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#11;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#12;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#13;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#14;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#15;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#16;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#17;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#18;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#19;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#20;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#21;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#22;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#23;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#24;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#25;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#26;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#27;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#28;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#29;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#30;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#31;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#channel#32;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#mysql#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extract_content.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xinhua/tool/extract_content.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xinhua/config/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sender.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python/Lib/site-packages/kafka/producer/sender.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>3/8537006.shtml</find>
+      <find>r</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/xinhua/items.py" />
+        <option value="$PROJECT_DIR$/xinhua/tool/judge_static.py" />
+        <option value="$PROJECT_DIR$/xinhua/tool/extract_authors.py" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/sys_logs-2018-06-29.txt" />
+        <option value="$PROJECT_DIR$/xinhua/tool/extract_content.py" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-06-29.txt" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logtools.py" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/test_logs-2018-07-01.txt" />
+        <option value="$PROJECT_DIR$/xinhua/spiders/xinhuaTest.py" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/sys_logs-2018-07-01.txt" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/error_logs-2018-06-29.txt" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-07-01.txt" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/error_logs-2018-07-01.txt" />
+        <option value="$PROJECT_DIR$/xinhua/settings.py" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/sys_logs-2018-07-02.txt" />
+        <option value="$PROJECT_DIR$/xinhua/tool/filterurl.py" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/error_logs-2018-07-02.txt" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-07-02.txt" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-07-03.txt" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/error_logs-2018-07-03.txt" />
+        <option value="$PROJECT_DIR$/xinhua/tool/parsepage.py" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/error_logs-2018-09-17.txt" />
+        <option value="$PROJECT_DIR$/xinhua/spiders/zhongxin.py" />
+        <option value="$PROJECT_DIR$/xinhua/config/config.py" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/error_logs-2018-09-28.txt" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/sys_logs-2018-09-28.txt" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-09-28.txt" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/sys_logs-2018-09-29.txt" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-09-29.txt" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-10-09.txt" />
+        <option value="$PROJECT_DIR$/xinhua/config/config" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-10-10.txt" />
+        <option value="$PROJECT_DIR$/xinhua/logs/logs/error_logs-2018-10-10.txt" />
+        <option value="$PROJECT_DIR$/xinhua/config/testfrom.py" />
+        <option value="$PROJECT_DIR$/xinhua/config/test.py" />
+        <option value="$PROJECT_DIR$/xinhua/pipelines.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="60" />
+    <option name="y" value="-19" />
+    <option name="width" value="1744" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xinhua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinhua" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinhua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinhua" type="462c0819:PsiDirectoryNode" />
+              <item name="xinhua" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinhua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinhua" type="462c0819:PsiDirectoryNode" />
+              <item name="xinhua" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinhua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinhua" type="462c0819:PsiDirectoryNode" />
+              <item name="xinhua" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinhua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinhua" type="462c0819:PsiDirectoryNode" />
+              <item name="xinhua" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinhua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinhua" type="462c0819:PsiDirectoryNode" />
+              <item name="xinhua" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinhua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinhua" type="462c0819:PsiDirectoryNode" />
+              <item name="xinhua" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinhua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="xinhua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6.3 (D:\Python\python.exe) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/download/ZhiHuSpider-master" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pyproj\xinhua\xinhua\tool" />
+      <recent name="D:\pyproj\xinhua\xinhua" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xinhua/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="xinhua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xinhua/config/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="filterurl" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xinhua/tool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="xinhua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xinhua/tool/filterurl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="parsepage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xinhua/tool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="xinhua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xinhua/tool/parsepage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="pipelines" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xinhua" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="xinhua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xinhua/pipelines.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xinhua/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="xinhua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xinhua/config/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="testfrom" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xinhua/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="xinhua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xinhua/config/testfrom.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="zhongxin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xinhua/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="xinhua" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xinhua/spiders/zhongxin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Python.filterurl" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.config" />
+      <item index="3" class="java.lang.String" itemvalue="Python.zhongxin" />
+      <item index="4" class="java.lang.String" itemvalue="Python.parsepage" />
+      <item index="5" class="java.lang.String" itemvalue="Python.pipelines" />
+      <item index="6" class="java.lang.String" itemvalue="Python.testfrom" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.testfrom" />
+        <item index="1" class="java.lang.String" itemvalue="Python.pipelines" />
+        <item index="2" class="java.lang.String" itemvalue="Python.zhongxin" />
+        <item index="3" class="java.lang.String" itemvalue="Python.config" />
+        <item index="4" class="java.lang.String" itemvalue="Python.parsepage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="726fa247-9d5e-45a1-8241-67f15fd632c7" name="Default" comment="" />
+      <created>1530238563154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530238563154</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16471216" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44372293" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24025974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3939394" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.023454158" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/xinhua/config/config.py</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/xinhua/pipelines.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/xinhua/config/test.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/xinhua/config/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#date_rule#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#rule#0;n#date_rule#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#rule#0;n#keywords_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#abstract_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#editor_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#title_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#time_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#source_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#content_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#img_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#0;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#1;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#2;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#3;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#4;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#5;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#6;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#7;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#8;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#9;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#10;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#11;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#12;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#13;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#14;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#15;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#16;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#17;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#18;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#19;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#20;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#21;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#22;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#23;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#24;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#25;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#26;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#27;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#28;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#29;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#30;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#31;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#32;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#mysql#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/sys_logs-2018-07-01.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#193#224#0" expanded="true" />
+            <marker date="1539941362135" expanded="true" signature="4233:4376" ph="insert into xinhua... " />
+            <marker date="1539941362135" expanded="true" signature="6105:6244" ph="insert into xinhua... " />
+            <marker date="1539941362135" expanded="true" signature="7538:7677" ph="insert into xinhua... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logtools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/config/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/tool/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/sys_logs-2018-06-29.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-06-29.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/tool/judge_static.py" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/test_logs-2018-07-01.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/sys_logs-2018-07-01.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/error_logs-2018-06-29.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-07-01.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/error_logs-2018-07-01.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/sys_logs-2018-07-02.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-07-02.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/error_logs-2018-07-02.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/sys_logs-2018-07-03.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-07-03.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/error_logs-2018-07-03.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/error_logs-2018-09-17.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logtools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/tool/extract_authors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/config/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="56" column="53" lean-forward="false" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/tool/filterurl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/error_logs-2018-09-28.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/sys_logs-2018-09-28.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/sys_logs-2018-09-29.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-09-28.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-09-29.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-10-09.txt" />
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/sys_logs-2018-10-10.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/error_logs-2018-10-10.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/logs/logs/info_logs-2018-10-10.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Lib/site-packages/kafka/client_async.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="838" column="0" lean-forward="false" selection-start-line="838" selection-start-column="0" selection-end-line="838" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/config/testfrom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/tool/parsepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2064">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/spiders/xinhuaTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Lib/site-packages/kafka/producer/kafka.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="641" column="0" lean-forward="false" selection-start-line="641" selection-start-column="0" selection-end-line="641" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python/Lib/site-packages/kafka/producer/sender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/tool/extract_content.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/config/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/spiders/zhongxin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="62" column="41" lean-forward="false" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+          <folding>
+            <element signature="e#193#224#0" expanded="true" />
+            <marker date="1539941362135" expanded="true" signature="4233:4376" ph="insert into xinhua... " />
+            <marker date="1539941362135" expanded="true" signature="6105:6244" ph="insert into xinhua... " />
+            <marker date="1539941362135" expanded="true" signature="7538:7677" ph="insert into xinhua... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinhua/config/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#date_rule#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#rule#0;n#date_rule#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#rule#0;n#keywords_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#abstract_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#editor_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#title_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#time_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#source_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#content_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#img_rules#0;n#public_rules#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#0;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#1;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#2;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#3;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#4;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#5;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#6;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#7;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#8;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#9;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#10;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#11;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#12;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#13;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#14;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#15;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#16;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#17;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#18;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#19;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#20;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#21;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#22;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#23;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#24;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#25;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#26;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#27;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#28;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#29;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#30;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#31;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#channel#32;n#allowed_channels#0;n#detail_rules#0;n#parse_rules#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#mysql#0;n#configuration#0;n#xml#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
